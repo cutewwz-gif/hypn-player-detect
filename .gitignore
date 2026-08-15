@@ -58,3 +58,6 @@ data/
 
 # Misc local outputs
 test_output_*
+
+# Local scratch / deploy scripts (may contain server credentials)
+_*.py
