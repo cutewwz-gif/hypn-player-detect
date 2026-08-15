@@ -1,0 +1,11 @@
+type: yolov8
+name: player-detect-r20260801
+provider: Ultralytics
+display_name: Player Detect
+model_path: best.onnx
+input_width: 320
+input_height: 320
+iou_threshold: 0.45
+conf_threshold: 0.45
+classes:
+  - Player

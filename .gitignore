@@ -1,0 +1,60 @@
+# Secrets & local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa*
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs & temp
+*.log
+remote_*.log
+train_pipeline.log
+monitor.log
+resume_upload.log
+fast_upload.log
+
+# Android / Gradle (if added later)
+local.properties
+.gradle/
+**/build/
+*.apk
+*.aab
+
+# ML artifacts (large binaries – download separately)
+runs/**/*.pt
+runs/**/*.onnx
+*.mp4
+*.avi
+*.mkv
+
+# Dataset images (labels + data.yaml are kept)
+player_dataset/images/
+data/
+
+# Misc local outputs
+test_output_*
